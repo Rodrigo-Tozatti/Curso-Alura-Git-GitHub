@@ -1,0 +1,56 @@
+
+******* Subindo os primeiros arquivos da pasta local para a pasta remota *******
+
+### 1. Criar um Repositório no GitHub
+
+1. Vá até o GitHub e faça login.
+2. Clique no botão "+" no canto superior direito e selecione "New repository".
+3. Dê um nome ao seu repositório e preencha as outras informações conforme necessário.
+4. Clique em "Create repository".
+
+### 2. Configurar o Repositório Local
+
+1. Abra o terminal no seu computador.
+2. Navegue até a pasta do seu projeto local usando o comando `cd`:
+   ```bash
+   cd /caminho/da/sua/pasta
+   ```
+
+### 3. Inicializar o Repositório Local
+
+1. Inicialize o repositório Git:
+   ```bash
+   git init
+   ```
+
+### 4. Adicionar os Arquivos ao Repositório
+
+1. Adicione todos os arquivos da pasta ao repositório:
+   ```bash
+   git add .
+   ```
+
+### 5. Fazer o Primeiro Commit
+
+1. Faça o commit dos arquivos adicionados:
+   ```bash
+   git commit -m "Primeiro commit"
+   ```
+
+### 6. Conectar o Repositório Local ao GitHub
+
+1. Adicione o repositório remoto (substitua `URL_DO_REPOSITORIO` pela URL do seu repositório que você criou no GitHub):
+   ```bash
+   git remote add origin URL_DO_REPOSITORIO
+   ```
+
+### 7. Enviar os Arquivos para o GitHub
+
+1. Envie os arquivos para o GitHub:
+   ```bash
+   git push -u origin master
+   ```
+
+Agora seus arquivos devem estar no repositório do GitHub.
+
+Se precisar de mais alguma coisa ou tiver alguma dúvida, é só me avisar!
