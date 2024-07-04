@@ -35,6 +35,9 @@
 1. Faça o commit dos arquivos adicionados:
    ```bash
    git commit -m "Primeiro commit"
+
+1. Alterar para a branch main
+   git branch main
    ```
 
 ### 6. Conectar o Repositório Local ao GitHub
