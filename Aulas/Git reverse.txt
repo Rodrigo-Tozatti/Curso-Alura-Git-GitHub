@@ -1,0 +1,8 @@
+
+// Comando para voltar uma versão antiga
+
+git log // para ver todos os logs
+
+copie o código do commit que deseja voltar
+
+git revert cce20f59b93f2a024ac88b63a9708caa0e9d1359 // git reverte e cole o código que deseja voltar
