@@ -1,0 +1,7 @@
+
+// Removendo um commit
+// git log // para encontrar o comit que deseja remover e copiar o código
+// OBS: o código que tem que ser pego é o do commit anterior (o comando deleta o commit posterior)
+// git revert --hard código do log
+
+git revert --hard cce20f59b93f2a024ac88b63a9708caa0e9d1359
