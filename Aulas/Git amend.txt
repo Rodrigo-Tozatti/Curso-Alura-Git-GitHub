@@ -1,0 +1,4 @@
+
+// Alterar o commit anterior //
+
+git commit --amend -m "Trocando nome do commit"
